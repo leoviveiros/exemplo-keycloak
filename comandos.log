@@ -1,7 +1,2 @@
 ## getting started ##
-
-# versao atual do site - não faz o login
-docker run -p 8080:8080 --name=keycloak_16 -e KEYCLOAK_ADMIN=admin -e KEYCLOAK_ADMIN_PASSWORD=admin quay.io/keycloak/keycloak:16.1.1 start-dev
-
-# versao com os nomes corretos das variaveis
 docker run -p 8080:8080 --name=keycloak_16 -e KEYCLOAK_USER=admin -e KEYCLOAK_PASSWORD=admin quay.io/keycloak/keycloak:16.1.1

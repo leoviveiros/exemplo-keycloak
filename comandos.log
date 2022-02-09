@@ -1,2 +1,16 @@
 ## getting started ##
 docker run -p 8080:8080 --name=keycloak_16 -e KEYCLOAK_USER=admin -e KEYCLOAK_PASSWORD=admin quay.io/keycloak/keycloak:16.1.1
+
+## Links ##
+
+Admin Console
+http://localhost:8080/auth/admin
+
+Account Console
+http://localhost:8080/auth/realms/myrealm/account
+
+Go Client
+http://localhost:8081/
+
+JWT (debugger)
+https://jwt.io/
